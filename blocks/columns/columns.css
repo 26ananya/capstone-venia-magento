@@ -23,11 +23,33 @@
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   .columns > div > div {
-    flex: 1;
+    /* flex: 1; */
     order: unset;
+    text-align: center;
+   
   }
+
+
+}
+
+
+.columns block.columns-2-cols div {
+  text-align: center;
+}
+
+.columns.block.columns-2-cols > div > div > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 0; /* Optional to remove any indentation */
+  
+}
+
+.columns.block.columns-2-cols > div > div > ul a{
+  color: black;
 }

@@ -222,11 +222,13 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 24px;
     margin: 0;
+    padding-left: 90px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+    display: inline-flex;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
@@ -265,4 +267,8 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header .default-content-wrapper{
+  display: flex;
 }

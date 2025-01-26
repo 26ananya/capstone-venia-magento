@@ -18,3 +18,39 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+footer .default-content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+footer .default-content-wrapper ul{
+  width: 25%;
+}
+
+footer .default-content-wrapper ul >li{
+  list-style: none;
+}
+
+footer .button-container .button{
+  all:unset;
+}
+
+footer .icon-VeniaLogo{
+  height: 50%;
+  width: 50%;
+}
+
+.footer-copyright .default-content-wrapper {
+  width: 100%;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  
+}
+
+.footer-copyright .default-content-wrapper ul {
+  display: flex;
+  gap:25px;
+}
