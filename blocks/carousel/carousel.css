@@ -152,3 +152,8 @@
     --slide-content-width: auto;
   }
 }
+
+.carousel .button-container a{
+  all:unset;
+  text-decoration: underline;
+}
