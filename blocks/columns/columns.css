@@ -47,9 +47,11 @@
   justify-content: center;
   gap: 10px;
   padding-left: 0; /* Optional to remove any indentation */
+  text-decoration: underline;
   
 }
 
 .columns.block.columns-2-cols > div > div > ul a{
   color: black;
+  
 }

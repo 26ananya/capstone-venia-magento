@@ -35,4 +35,23 @@
     grid-template-columns: repeat(3, minmax(257px, 1fr)) !important;
 
   }
-  
+
+  .shopping-cards-card-body{
+    position: absolute;
+    top:0;
+    color: white;
+    text-align: center;
+    padding-left: 40px;
+    margin: 0;
+  }
+
+
+   .shopping-cards ul>li{
+    position: relative;
+   }
+
+   .shopping-cards-card-body h2{
+    font-size: 3.75rem;
+    line-height: 1.25;
+    margin: 0;
+   }

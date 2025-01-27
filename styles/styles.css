@@ -256,4 +256,7 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+.section h2{
+  text-align: center;
+}
 

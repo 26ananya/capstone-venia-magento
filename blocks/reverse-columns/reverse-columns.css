@@ -1,0 +1,75 @@
+.reverse-columns > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reverse-columns img {
+    width: 100%;
+  }
+  
+  .reverse-columns > div > div {
+    order: 1;
+  }
+  
+  .reverse-columns > div > .reverse-columns-img-col {
+    order: 0;
+  }
+  
+  .reverse-columns > div > .reverse-columns-img-col img {
+    display: block;
+  }
+  
+  @media (width >= 900px) {
+    .reverse-columns > div {
+      align-items: center;
+      flex-direction: unset;
+      /* gap: 24px; */
+    }
+  
+    .reverse-columns > div > div {
+      /* flex: 1; */
+      order: unset;
+      text-align: center;
+     
+    }
+  
+  
+  }
+  
+  
+  .reverse-columns block.reverse-columns-2-cols div {
+    text-align: center;
+  }
+  
+  .reverse-columns.block.reverse-columns-2-cols > div > div > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0; /* Optional to remove any indentation */
+    text-decoration: underline;
+    
+  }
+  
+  .reverse-columns.block.reverse-columns-2-cols > div > div > ul a{
+    color: black;
+    
+  }
+
+
+
+  .reverse-columns > div > div:nth-child(2){
+    color: white;
+    background: black;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+  .reverse-columns > div > div:nth-child(2) a{
+    all:unset;
+    text-decoration: underline;
+  }
