@@ -142,6 +142,17 @@
     left: 24px;
     right: 24px;
   }
+  .carousel .carousel-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+  }
 
   .carousel .carousel-slide .carousel-slide-content {
     --slide-content-width: calc((100% - 184px) / 2);
@@ -165,6 +176,14 @@
   font-size: small;
   width: auto;
   margin-left: auto;
+  margin-bottom: 30px;
+  top:20px;
 
   }
+
+  .carousel .carousel-slide {
+    min-height: auto;
+  }
+
+  
 }
