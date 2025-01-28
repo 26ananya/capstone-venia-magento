@@ -44,7 +44,7 @@ footer .icon-VeniaLogo{
 }
 
 .footer-copyright .default-content-wrapper {
-  width: 100%;
+  width: auto;
   border-top: 1px solid grey;
   padding-top: 20px;
   
@@ -62,4 +62,23 @@ footer .icon-VeniaLogo{
   font-weight: bold;
 }
 
+@media (width < 900px)
+{
+  .footer-copyright .default-content-wrapper{
+text-align: center;
+  }
 
+  .footer-copyright p{
+    
+    overflow-wrap: break-word;
+    }
+  
+  footer .default-content-wrapper{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  footer .footer > div{
+padding: 0;
+  }
+}

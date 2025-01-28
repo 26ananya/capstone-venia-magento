@@ -55,3 +55,11 @@
     line-height: 1.25;
     margin: 0;
    }
+
+   @media (width < 600px){
+    .shopping-cards ul{
+      grid-template-columns: repeat(1, minmax(257px, 1fr)) !important;
+  
+    }
+  
+   }
