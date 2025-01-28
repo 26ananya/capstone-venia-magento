@@ -65,12 +65,13 @@ footer .icon-VeniaLogo{
 @media (width < 900px)
 
 {
-  footer .default-content-wrapper ul {
+  .footer-copyright .default-content-wrapper ul {
     width: auto;
   }
   .footer-copyright .default-content-wrapper{
 text-align: center;
   }
+
 
   .footer-copyright p:nth-child(2){
     
